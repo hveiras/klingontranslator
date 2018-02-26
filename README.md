@@ -6,6 +6,13 @@ Translate klingon to its hex represenation and show the species for the given ch
 
 > node 8.x +
 
+## Setup
+
+> $ git clone https://github.com/hveiras/klingontranslator.git
+$ cd klingontranslator
+$ npm install
+$ chmod +x translate
+
 ## Usage
 
 `$ ./translate Uhura`
