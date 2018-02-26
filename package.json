@@ -4,7 +4,8 @@
   "description": "Klingon translator",
   "main": "index.js",
   "scripts": {
-    "test": "mocha $npm_package_config_mocha --reporter spec"
+    "test": "mocha $npm_package_config_mocha --reporter spec",
+    "start": "node index.js"
   },
   "keywords": [
     "klingon",
@@ -21,5 +22,10 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "mocha": "^5.0.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
   }
 }
